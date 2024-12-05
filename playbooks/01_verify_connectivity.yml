@@ -1,0 +1,10 @@
+---
+# File: playbooks/01_verify_connectivity.yml
+# Purpose: Verify that Ansible can reach each device.
+
+- name: Connectivity Check Playbook
+  hosts: all
+  gather_facts: no  # No need to gather facts for a simple connectivity check
+  tasks:
+    - name: Test connectivity to all devices
+      ping:
