@@ -14,4 +14,3 @@ Refer to the `cisco-automation/` directory structure.
 1. Activate your virtual environment:
    ```bash
    source myenv/bin/activate
-
