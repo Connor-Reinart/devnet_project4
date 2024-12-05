@@ -7,4 +7,4 @@
   gather_facts: no  # No need to gather facts for a simple connectivity check
   tasks:
     - name: Test connectivity to all devices
-      ping: 192.168.101.1
+      ping:
