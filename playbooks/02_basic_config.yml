@@ -1,0 +1,26 @@
+---
+- name: Basic Configuration of Network Devices
+  hosts: network_devices
+  gather_facts: no
+
+  vars:
+    hostname: "MyDevice"
+    domain_name: "example.com"
+
+  tasks:
+    - name: Configure hostname
+      ansible.netcommon.cli_config:
+        lines:
+          - "hostname {{ hostname }}"
+
+    - name: Configure domain name
+      ansible.netcommon.cli_config:
+        lines:
+          - "ip domain-name {{ domain_name }}"
+
+    - name: Enable SSH
+      ansible.netcommon.cli_config:
+        lines:
+          - "ip ssh version 2"
+          - "crypto key generate rsa modulus 2048"
+      when: ansible_network_os != 'iosxr'
