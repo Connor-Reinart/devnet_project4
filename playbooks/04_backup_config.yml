@@ -1,6 +1,6 @@
 ---
 - name: Backup running configuration from network devices
-  hosts: network_devices
+  hosts: all
   gather_facts: no
 
   vars:
