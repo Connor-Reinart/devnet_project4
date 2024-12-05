@@ -1,6 +1,6 @@
 ---
 - name: Basic Configuration of Network Devices
-  hosts: network_devices
+  hosts: all
   gather_facts: no
 
   vars:
