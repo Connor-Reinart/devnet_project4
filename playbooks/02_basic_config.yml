@@ -1,26 +1,24 @@
 ---
-- name: Basic Configuration of Network Devices
+- name: Basic configuration for routers and switches
   hosts: all
-  gather_facts: no
-
-  vars:
-    hostname: "MyDevice"
-    domain_name: "example.com"
-
+  gather_facts: false
   tasks:
     - name: Configure hostname
-      ansible.netcommon.cli_config:
+      ios_config:
         lines:
-          - "hostname {{ hostname }}"
-
+          - hostname {{ inventory_hostname }}
+        provider: "{{ cli }}"
+    
     - name: Configure domain name
-      ansible.netcommon.cli_config:
+      ios_config:
         lines:
-          - "ip domain-name {{ domain_name }}"
+          - ip domain-name {{ domain_name }}
+        provider: "{{ cli }}"
 
     - name: Enable SSH
-      ansible.netcommon.cli_config:
+      ios_config:
         lines:
-          - "ip ssh version 2"
-          - "crypto key generate rsa modulus 2048"
-      when: ansible_network_os != 'iosxr'
+          - ip ssh version 2
+          - line vty 0 4
+          - transport input ssh
+        provider: "{{ cli }}"
