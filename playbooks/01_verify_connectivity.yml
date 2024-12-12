@@ -1,0 +1,7 @@
+---
+- name: Verify device connectivity
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Check connectivity via ping
+      ping:
