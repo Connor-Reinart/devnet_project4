@@ -1,0 +1,39 @@
+# Common credentials for all devices
+ansible_network_os: ios
+ansible_user: admin
+ansible_password: your_password
+ansible_ssh_pass: your_enable_password
+
+# CLI connection provider settings
+cli:
+  host: "{{ ansible_host }}"
+  username: "{{ ansible_user }}"
+  password: "{{ ansible_password }}"
+  auth_pass: "{{ ansible_ssh_pass }}"
+
+# Domain name (applies to all devices)
+domain_name: example.com
+
+# VLAN configurations (used by switches and optionally by routers)
+vlans:
+  - id: 10
+    name: Engineering
+  - id: 20
+    name: Sales
+
+# Router-specific settings (applied only in router-specific tasks)
+router_subinterfaces:
+  - { id: 10, ip: "192.168.10.1", subnet: "255.255.255.0" }
+  - { id: 20, ip: "192.168.20.1", subnet: "255.255.255.0" }
+
+# Optional device-specific settings
+device_specific_settings:
+  routers:
+    - name: Router1
+      hostname: R1
+      ospf_process_id: 1  # Example, for OSPF or other router-specific tasks
+  switches:
+    - name: Switch1
+      hostname: SW1
+    - name: Switch2
+      hostname: SW2
