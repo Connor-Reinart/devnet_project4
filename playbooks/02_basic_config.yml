@@ -2,7 +2,7 @@
 - name: Basic configuration for routers and switches
   hosts: all
   gather_facts: false
-  Connection: local
+  connection: local
   
   tasks:
     - name: Configure hostname
