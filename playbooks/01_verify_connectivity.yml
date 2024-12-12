@@ -1,7 +1,7 @@
 ---
-hosts: all
-become: yes
-tasks:
-    - name: Test connectivity to all devices
-      ansible.builtin.ping:
-  
+- name: Verify device connectivity
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: Check connectivity via ping
+      ping:
