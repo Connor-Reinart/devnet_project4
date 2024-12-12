@@ -4,4 +4,10 @@
   gather_facts: false
   tasks:
     - name: Check connectivity via ping
+<<<<<<< HEAD
       ping:
+=======
+      ios_command:
+        commands:
+          - ping 10.0.2.15
+>>>>>>> e37499eb4f11638071b3f130bfbdd8e07f3fa169
