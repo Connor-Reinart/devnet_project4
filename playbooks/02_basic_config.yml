@@ -1,26 +1,24 @@
 ---
-- name: Basic configuration for routers and switches
-  hosts: all
+- name: Basic configuration for routers
+  hosts: Router
   gather_facts: false
   connection: local
   
   tasks:
     - name: Configure hostname
-      ios_config:
-        lines:
-          - hostname {{ inventory_hostname }}
-        provider: "{{ cli }}"
-    
-    - name: Configure domain name
-      ios_config:
-        lines:
-          - ip domain-name {{ domain_name }}
-        provider: "{{ cli }}"
+     
 
-    - name: Enable SSH
-      ios_config:
-        lines:
-          - ip ssh version 2
-          - line vty 0 4
+- name: Basic configuration for switches
+  hosts: Switch
+  gather_facts: false
+  connection: local
+
+  task: 
+    - name: Configure 
+      iso_command:
+        commands:
+          - hostname R1
+          - ip domain-name cisco.com
+          - line vty 0 24 
           - transport input ssh
-        provider: "{{ cli }}"
+
