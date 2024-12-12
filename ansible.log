@@ -1,0 +1,390 @@
+2024-12-12 21:09:02,981 p=3780 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-
+automation/inventory.yml as an inventory source
+
+2024-12-12 21:09:02,982 p=3780 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:09:02,982 p=3780 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+2024-12-12 21:09:02,982 p=3780 u=devasc n=ansible | [WARNING]: Could not match supplied host pattern, ignoring:
+playbooks/01_verify_connectivity.yml
+
+2024-12-12 21:09:02,984 p=3780 u=devasc n=ansible | ERROR! No argument passed to command module (did you mean to run ansible-playbook?)
+2024-12-12 21:11:26,982 p=3878 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-automation/inventory.yml as an inventory source
+
+2024-12-12 21:11:26,982 p=3878 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:11:26,982 p=3878 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-12-12 21:11:26,983 p=3878 u=devasc n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: 01_verify_connectivity.yml
+
+2024-12-12 21:11:26,984 p=3878 u=devasc n=ansible | ERROR! No argument passed to command module (did you mean to run ansible-playbook?)
+2024-12-12 21:11:29,584 p=3882 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-automation/inventory.yml as an inventory source
+
+2024-12-12 21:11:29,586 p=3882 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:11:29,586 p=3882 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-12-12 21:11:29,586 p=3882 u=devasc n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: playbooks/01_verify_connectivity.yml
+
+2024-12-12 21:11:29,588 p=3882 u=devasc n=ansible | ERROR! No argument passed to command module (did you mean to run ansible-playbook?)
+2024-12-12 21:11:39,658 p=3884 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-automation/inventory.yml as an inventory source
+
+2024-12-12 21:11:39,658 p=3884 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:11:39,702 p=3884 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-12-12 21:11:40,687 p=3884 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:11:40,687 p=3884 u=devasc n=ansible | skipping: no hosts matched
+2024-12-12 21:11:40,687 p=3884 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:12:05,922 p=3888 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-automation/inventory.yml as an inventory source
+
+2024-12-12 21:12:05,923 p=3888 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:12:05,924 p=3888 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-12-12 21:12:06,042 p=3888 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:12:06,043 p=3888 u=devasc n=ansible | skipping: no hosts matched
+2024-12-12 21:12:06,043 p=3888 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:12:15,193 p=3895 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-automation/inventory.yml as an inventory source
+
+2024-12-12 21:12:15,193 p=3895 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:12:15,193 p=3895 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-12-12 21:12:15,383 p=3895 u=devasc n=ansible | PLAY [Basic configuration for routers and switches] ***************************************************************************************************************************************************************
+2024-12-12 21:12:15,383 p=3895 u=devasc n=ansible | skipping: no hosts matched
+2024-12-12 21:12:15,383 p=3895 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:13:23,052 p=3901 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-automation/inventory.yml as an inventory source
+
+2024-12-12 21:13:23,053 p=3901 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:13:23,053 p=3901 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-12-12 21:13:23,277 p=3901 u=devasc n=ansible | PLAY [Basic configuration for routers and switches] ***************************************************************************************************************************************************************
+2024-12-12 21:13:23,278 p=3901 u=devasc n=ansible | skipping: no hosts matched
+2024-12-12 21:13:23,278 p=3901 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:13:29,467 p=3906 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-automation/inventory.yml as an inventory source
+
+2024-12-12 21:13:29,467 p=3906 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:13:29,468 p=3906 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-12-12 21:13:29,593 p=3906 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:13:29,593 p=3906 u=devasc n=ansible | skipping: no hosts matched
+2024-12-12 21:13:29,593 p=3906 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:13:54,323 p=3912 u=devasc n=ansible | [WARNING]: Unable to parse /home/devasc/labs/devnet-src/ansible/cisco-automation/inventory.yml as an inventory source
+
+2024-12-12 21:13:54,324 p=3912 u=devasc n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-12-12 21:13:54,324 p=3912 u=devasc n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-12-12 21:13:54,436 p=3912 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:13:54,436 p=3912 u=devasc n=ansible | skipping: no hosts matched
+2024-12-12 21:13:54,436 p=3912 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:14:57,775 p=3945 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:14:57,819 p=3945 u=devasc n=ansible | TASK [Check connectivity via ping] ********************************************************************************************************************************************************************************
+2024-12-12 21:15:00,697 p=3950 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host Router: Failed to connect to the host via ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @    WARNING: REMOTE HOST
+IDENTIFICATION HAS CHANGED!     @  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!  Someone could be eavesdropping on you right now (man-in-
+the-middle attack)!  It is also possible that a host key has just been changed.  The fingerprint for the RSA key sent by the remote host is SHA256:PnMVL0S9E2zRU81hW8NduIz65sOxwS+aTNXipwk8Lbk.  Please contact
+your system administrator.  Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.  Offending RSA key in /home/devasc/.ssh/known_hosts:3    remove with:    ssh-keygen -f
+"/home/devasc/.ssh/known_hosts" -R "192.168.101.1"  Password authentication is disabled to avoid man-in-the-middle attacks.  Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+admin@192.168.101.1: Permission denied (publickey,keyboard-interactive,password).
+
+2024-12-12 21:15:00,698 p=3949 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host Switch: Failed to connect to the host via ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @    WARNING: REMOTE HOST
+IDENTIFICATION HAS CHANGED!     @  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!  Someone could be eavesdropping on you right now (man-in-
+the-middle attack)!  It is also possible that a host key has just been changed.  The fingerprint for the RSA key sent by the remote host is SHA256:FWFNfyjFYVS3dBLL+fZhtcf95R4Ja/XKntCAm6124Lk.  Please contact
+your system administrator.  Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.  Offending RSA key in /home/devasc/.ssh/known_hosts:4    remove with:    ssh-keygen -f
+"/home/devasc/.ssh/known_hosts" -R "192.168.101.2"  Password authentication is disabled to avoid man-in-the-middle attacks.  Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+admin@192.168.101.2: Permission denied (publickey,keyboard-interactive,password).
+
+2024-12-12 21:15:02,433 p=3945 u=devasc n=ansible | fatal: [Router]: UNREACHABLE! => changed=false 
+  msg: |-
+    Data could not be sent to remote host "192.168.101.1". Make sure this host can be reached over ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    The fingerprint for the RSA key sent by the remote host is
+    SHA256:PnMVL0S9E2zRU81hW8NduIz65sOxwS+aTNXipwk8Lbk.
+    Please contact your system administrator.
+    Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+    Offending RSA key in /home/devasc/.ssh/known_hosts:3
+      remove with:
+      ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.101.1"
+    Password authentication is disabled to avoid man-in-the-middle attacks.
+    Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+    admin@192.168.101.1: Permission denied (publickey,keyboard-interactive,password).
+  unreachable: true
+2024-12-12 21:15:02,549 p=3945 u=devasc n=ansible | fatal: [Switch]: UNREACHABLE! => changed=false 
+  msg: |-
+    Data could not be sent to remote host "192.168.101.2". Make sure this host can be reached over ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    The fingerprint for the RSA key sent by the remote host is
+    SHA256:FWFNfyjFYVS3dBLL+fZhtcf95R4Ja/XKntCAm6124Lk.
+    Please contact your system administrator.
+    Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+    Offending RSA key in /home/devasc/.ssh/known_hosts:4
+      remove with:
+      ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.101.2"
+    Password authentication is disabled to avoid man-in-the-middle attacks.
+    Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+    admin@192.168.101.2: Permission denied (publickey,keyboard-interactive,password).
+  unreachable: true
+2024-12-12 21:15:02,551 p=3945 u=devasc n=ansible | 	to retry, use: --limit @/home/devasc/labs/devnet-src/ansible/cisco-automation/retries/01_verify_connectivity.retry
+
+2024-12-12 21:15:02,552 p=3945 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:15:02,552 p=3945 u=devasc n=ansible | Router                     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:15:02,552 p=3945 u=devasc n=ansible | Switch                     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:16:42,664 p=3996 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:16:42,670 p=3996 u=devasc n=ansible | TASK [Check connectivity via ping] ********************************************************************************************************************************************************************************
+2024-12-12 21:16:44,693 p=4001 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host Router: Failed to connect to the host via ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @    WARNING: REMOTE HOST
+IDENTIFICATION HAS CHANGED!     @  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!  Someone could be eavesdropping on you right now (man-in-
+the-middle attack)!  It is also possible that a host key has just been changed.  The fingerprint for the RSA key sent by the remote host is SHA256:PnMVL0S9E2zRU81hW8NduIz65sOxwS+aTNXipwk8Lbk.  Please contact
+your system administrator.  Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.  Offending RSA key in /home/devasc/.ssh/known_hosts:3    remove with:    ssh-keygen -f
+"/home/devasc/.ssh/known_hosts" -R "192.168.101.1"  Password authentication is disabled to avoid man-in-the-middle attacks.  Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+admin@192.168.101.1: Permission denied (publickey,keyboard-interactive,password).
+
+2024-12-12 21:16:44,799 p=4000 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host Switch: Failed to connect to the host via ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @    WARNING: REMOTE HOST
+IDENTIFICATION HAS CHANGED!     @  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!  Someone could be eavesdropping on you right now (man-in-
+the-middle attack)!  It is also possible that a host key has just been changed.  The fingerprint for the RSA key sent by the remote host is SHA256:FWFNfyjFYVS3dBLL+fZhtcf95R4Ja/XKntCAm6124Lk.  Please contact
+your system administrator.  Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.  Offending RSA key in /home/devasc/.ssh/known_hosts:4    remove with:    ssh-keygen -f
+"/home/devasc/.ssh/known_hosts" -R "192.168.101.2"  Password authentication is disabled to avoid man-in-the-middle attacks.  Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+admin@192.168.101.2: Permission denied (publickey,keyboard-interactive,password).
+
+2024-12-12 21:16:47,428 p=3996 u=devasc n=ansible | fatal: [Router]: UNREACHABLE! => changed=false 
+  msg: |-
+    Data could not be sent to remote host "192.168.101.1". Make sure this host can be reached over ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    The fingerprint for the RSA key sent by the remote host is
+    SHA256:PnMVL0S9E2zRU81hW8NduIz65sOxwS+aTNXipwk8Lbk.
+    Please contact your system administrator.
+    Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+    Offending RSA key in /home/devasc/.ssh/known_hosts:3
+      remove with:
+      ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.101.1"
+    Password authentication is disabled to avoid man-in-the-middle attacks.
+    Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+    admin@192.168.101.1: Permission denied (publickey,keyboard-interactive,password).
+  unreachable: true
+2024-12-12 21:16:47,534 p=3996 u=devasc n=ansible | fatal: [Switch]: UNREACHABLE! => changed=false 
+  msg: |-
+    Data could not be sent to remote host "192.168.101.2". Make sure this host can be reached over ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    The fingerprint for the RSA key sent by the remote host is
+    SHA256:FWFNfyjFYVS3dBLL+fZhtcf95R4Ja/XKntCAm6124Lk.
+    Please contact your system administrator.
+    Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+    Offending RSA key in /home/devasc/.ssh/known_hosts:4
+      remove with:
+      ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.101.2"
+    Password authentication is disabled to avoid man-in-the-middle attacks.
+    Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+    admin@192.168.101.2: Permission denied (publickey,keyboard-interactive,password).
+  unreachable: true
+2024-12-12 21:16:47,536 p=3996 u=devasc n=ansible | 	to retry, use: --limit @/home/devasc/labs/devnet-src/ansible/cisco-automation/retries/01_verify_connectivity.retry
+
+2024-12-12 21:16:47,536 p=3996 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:16:47,536 p=3996 u=devasc n=ansible | Router                     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:16:47,536 p=3996 u=devasc n=ansible | Switch                     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:18:46,131 p=4031 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:18:46,139 p=4031 u=devasc n=ansible | TASK [Check connectivity via ping] ********************************************************************************************************************************************************************************
+2024-12-12 21:18:48,664 p=4036 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host R1: Failed to connect to the host via ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @    WARNING: REMOTE HOST
+IDENTIFICATION HAS CHANGED!     @  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!  Someone could be eavesdropping on you right now (man-in-
+the-middle attack)!  It is also possible that a host key has just been changed.  The fingerprint for the RSA key sent by the remote host is SHA256:PnMVL0S9E2zRU81hW8NduIz65sOxwS+aTNXipwk8Lbk.  Please contact
+your system administrator.  Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.  Offending RSA key in /home/devasc/.ssh/known_hosts:3    remove with:    ssh-keygen -f
+"/home/devasc/.ssh/known_hosts" -R "192.168.101.1"  Password authentication is disabled to avoid man-in-the-middle attacks.  Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+admin@192.168.101.1: Permission denied (publickey,keyboard-interactive,password).
+
+2024-12-12 21:18:48,769 p=4035 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host S1: Failed to connect to the host via ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  @    WARNING: REMOTE HOST
+IDENTIFICATION HAS CHANGED!     @  @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!  Someone could be eavesdropping on you right now (man-in-
+the-middle attack)!  It is also possible that a host key has just been changed.  The fingerprint for the RSA key sent by the remote host is SHA256:FWFNfyjFYVS3dBLL+fZhtcf95R4Ja/XKntCAm6124Lk.  Please contact
+your system administrator.  Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.  Offending RSA key in /home/devasc/.ssh/known_hosts:4    remove with:    ssh-keygen -f
+"/home/devasc/.ssh/known_hosts" -R "192.168.101.2"  Password authentication is disabled to avoid man-in-the-middle attacks.  Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+admin@192.168.101.2: Permission denied (publickey,keyboard-interactive,password).
+
+2024-12-12 21:18:50,885 p=4031 u=devasc n=ansible | fatal: [R1]: UNREACHABLE! => changed=false 
+  msg: |-
+    Data could not be sent to remote host "192.168.101.1". Make sure this host can be reached over ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    The fingerprint for the RSA key sent by the remote host is
+    SHA256:PnMVL0S9E2zRU81hW8NduIz65sOxwS+aTNXipwk8Lbk.
+    Please contact your system administrator.
+    Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+    Offending RSA key in /home/devasc/.ssh/known_hosts:3
+      remove with:
+      ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.101.1"
+    Password authentication is disabled to avoid man-in-the-middle attacks.
+    Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+    admin@192.168.101.1: Permission denied (publickey,keyboard-interactive,password).
+  unreachable: true
+2024-12-12 21:18:51,003 p=4031 u=devasc n=ansible | fatal: [S1]: UNREACHABLE! => changed=false 
+  msg: |-
+    Data could not be sent to remote host "192.168.101.2". Make sure this host can be reached over ssh: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    The fingerprint for the RSA key sent by the remote host is
+    SHA256:FWFNfyjFYVS3dBLL+fZhtcf95R4Ja/XKntCAm6124Lk.
+    Please contact your system administrator.
+    Add correct host key in /home/devasc/.ssh/known_hosts to get rid of this message.
+    Offending RSA key in /home/devasc/.ssh/known_hosts:4
+      remove with:
+      ssh-keygen -f "/home/devasc/.ssh/known_hosts" -R "192.168.101.2"
+    Password authentication is disabled to avoid man-in-the-middle attacks.
+    Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+    admin@192.168.101.2: Permission denied (publickey,keyboard-interactive,password).
+  unreachable: true
+2024-12-12 21:18:51,007 p=4031 u=devasc n=ansible | 	to retry, use: --limit @/home/devasc/labs/devnet-src/ansible/cisco-automation/retries/01_verify_connectivity.retry
+
+2024-12-12 21:18:51,007 p=4031 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:18:51,007 p=4031 u=devasc n=ansible | R1                         : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:18:51,007 p=4031 u=devasc n=ansible | S1                         : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:35:32,748 p=4155 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:35:32,762 p=4155 u=devasc n=ansible | TASK [Check connectivity via ping] ********************************************************************************************************************************************************************************
+2024-12-12 21:35:35,782 p=4160 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host R1: unexpected output from Python interpreter discovery
+
+2024-12-12 21:35:35,894 p=4159 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host S1: unexpected output from Python interpreter discovery
+
+2024-12-12 21:35:38,544 p=4155 u=devasc n=ansible | [WARNING]: Platform unknown on host R1 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change this. See
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html for more information.
+
+2024-12-12 21:35:38,545 p=4155 u=devasc n=ansible | fatal: [R1]: FAILED! => changed=false 
+  ansible_facts:
+    discovered_interpreter_python: /usr/bin/python
+  module_stderr: ''
+  module_stdout: |2-
+  
+  
+  
+    Line has invalid autocommand "/bin/sh -c '/usr/bin/python && sleep 0'"
+  msg: |-
+    MODULE FAILURE
+    See stdout/stderr for the exact error
+  rc: 0
+2024-12-12 21:35:39,153 p=4155 u=devasc n=ansible | [WARNING]: Platform unknown on host S1 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change this. See
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html for more information.
+
+2024-12-12 21:35:39,154 p=4155 u=devasc n=ansible | fatal: [S1]: FAILED! => changed=false 
+  ansible_facts:
+    discovered_interpreter_python: /usr/bin/python
+  module_stderr: ''
+  module_stdout: |2-
+  
+  
+  
+    Line has invalid autocommand "/bin/sh -c '/usr/bin/python && sleep 0'"
+  msg: |-
+    MODULE FAILURE
+    See stdout/stderr for the exact error
+  rc: 0
+2024-12-12 21:35:39,157 p=4155 u=devasc n=ansible | 	to retry, use: --limit @/home/devasc/labs/devnet-src/ansible/cisco-automation/retries/01_verify_connectivity.retry
+
+2024-12-12 21:35:39,157 p=4155 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:35:39,157 p=4155 u=devasc n=ansible | R1                         : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:35:39,157 p=4155 u=devasc n=ansible | S1                         : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:40:55,453 p=4225 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:40:55,462 p=4225 u=devasc n=ansible | TASK [Check connectivity via ping] ********************************************************************************************************************************************************************************
+2024-12-12 21:40:58,958 p=4230 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host R1: unexpected output from Python interpreter discovery
+
+2024-12-12 21:40:58,967 p=4229 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host S1: unexpected output from Python interpreter discovery
+
+2024-12-12 21:41:01,990 p=4225 u=devasc n=ansible | [WARNING]: Platform unknown on host R1 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change this. See
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html for more information.
+
+2024-12-12 21:41:01,992 p=4225 u=devasc n=ansible | fatal: [R1]: FAILED! => changed=false 
+  ansible_facts:
+    discovered_interpreter_python: /usr/bin/python
+  module_stderr: ''
+  module_stdout: |2-
+  
+  
+  
+    Line has invalid autocommand "/bin/sh -c '/usr/bin/python && sleep 0'"
+  msg: |-
+    MODULE FAILURE
+    See stdout/stderr for the exact error
+  rc: 0
+2024-12-12 21:41:02,603 p=4225 u=devasc n=ansible | [WARNING]: Platform unknown on host S1 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change this. See
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html for more information.
+
+2024-12-12 21:41:02,604 p=4225 u=devasc n=ansible | fatal: [S1]: FAILED! => changed=false 
+  ansible_facts:
+    discovered_interpreter_python: /usr/bin/python
+  module_stderr: ''
+  module_stdout: |2-
+  
+  
+  
+    Line has invalid autocommand "/bin/sh -c '/usr/bin/python && sleep 0'"
+  msg: |-
+    MODULE FAILURE
+    See stdout/stderr for the exact error
+  rc: 0
+2024-12-12 21:41:02,607 p=4225 u=devasc n=ansible | 	to retry, use: --limit @/home/devasc/labs/devnet-src/ansible/cisco-automation/retries/01_verify_connectivity.retry
+
+2024-12-12 21:41:02,607 p=4225 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:41:02,607 p=4225 u=devasc n=ansible | R1                         : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:41:02,607 p=4225 u=devasc n=ansible | S1                         : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:43:12,196 p=4260 u=devasc n=ansible | PLAY [Verify device connectivity] *********************************************************************************************************************************************************************************
+2024-12-12 21:43:12,206 p=4260 u=devasc n=ansible | TASK [Check connectivity via ping] ********************************************************************************************************************************************************************************
+2024-12-12 21:43:13,985 p=4265 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host R1: unexpected output from Python interpreter discovery
+
+2024-12-12 21:43:14,096 p=4264 u=devasc n=ansible | [WARNING]: Unhandled error in Python interpreter discovery for host S1: unexpected output from Python interpreter discovery
+
+2024-12-12 21:43:17,238 p=4260 u=devasc n=ansible | [WARNING]: Platform unknown on host R1 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change this. See
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html for more information.
+
+2024-12-12 21:43:17,239 p=4260 u=devasc n=ansible | fatal: [R1]: FAILED! => changed=false 
+  ansible_facts:
+    discovered_interpreter_python: /usr/bin/python
+  module_stderr: ''
+  module_stdout: |2-
+  
+  
+  
+    Line has invalid autocommand "/bin/sh -c '/usr/bin/python && sleep 0'"
+  msg: |-
+    MODULE FAILURE
+    See stdout/stderr for the exact error
+  rc: 0
+2024-12-12 21:43:17,846 p=4260 u=devasc n=ansible | [WARNING]: Platform unknown on host S1 is using the discovered Python interpreter at /usr/bin/python, but future installation of another Python interpreter could change this. See
+https://docs.ansible.com/ansible/2.9/reference_appendices/interpreter_discovery.html for more information.
+
+2024-12-12 21:43:17,847 p=4260 u=devasc n=ansible | fatal: [S1]: FAILED! => changed=false 
+  ansible_facts:
+    discovered_interpreter_python: /usr/bin/python
+  module_stderr: ''
+  module_stdout: |2-
+  
+  
+  
+    Line has invalid autocommand "/bin/sh -c '/usr/bin/python && sleep 0'"
+  msg: |-
+    MODULE FAILURE
+    See stdout/stderr for the exact error
+  rc: 0
+2024-12-12 21:43:17,849 p=4260 u=devasc n=ansible | 	to retry, use: --limit @/home/devasc/labs/devnet-src/ansible/cisco-automation/retries/01_verify_connectivity.retry
+
+2024-12-12 21:43:17,849 p=4260 u=devasc n=ansible | PLAY RECAP ********************************************************************************************************************************************************************************************************
+2024-12-12 21:43:17,849 p=4260 u=devasc n=ansible | R1                         : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-12-12 21:43:17,849 p=4260 u=devasc n=ansible | S1                         : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   

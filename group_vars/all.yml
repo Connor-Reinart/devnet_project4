@@ -1,8 +1,8 @@
 # Common credentials for all devices
 ansible_network_os: ios
 ansible_user: admin
-ansible_password: your_password
-ansible_ssh_pass: your_enable_password
+ansible_password: adminpass
+ansible_ssh_pass: adminpass
 
 # CLI connection provider settings
 cli:
@@ -12,7 +12,7 @@ cli:
   auth_pass: "{{ ansible_ssh_pass }}"
 
 # Domain name (applies to all devices)
-domain_name: example.com
+domain_name: cisco.com
 
 # VLAN configurations (used by switches and optionally by routers)
 vlans:
@@ -20,12 +20,7 @@ vlans:
     name: Engineering
   - id: 20
     name: Sales
-
-# Router-specific settings (applied only in router-specific tasks)
-router_subinterfaces:
-  - { id: 10, ip: "192.168.10.1", subnet: "255.255.255.0" }
-  - { id: 20, ip: "192.168.20.1", subnet: "255.255.255.0" }
-
+    
 # Optional device-specific settings
 device_specific_settings:
   routers:
@@ -35,5 +30,3 @@ device_specific_settings:
   switches:
     - name: Switch1
       hostname: SW1
-    - name: Switch2
-      hostname: SW2
