@@ -2,6 +2,8 @@
 - name: Basic configuration for routers and switches
   hosts: all
   gather_facts: false
+  Connection: local
+  
   tasks:
     - name: Configure hostname
       ios_config:
