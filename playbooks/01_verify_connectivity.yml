@@ -4,7 +4,11 @@
 
 - name: Connectivity Check Playbook
   hosts: all
-  gather_facts: no  # No need to gather facts for a simple connectivity check
+  gather_facts: false
+  connection: local
+
   tasks:
-    - name: Test connectivity to all devices
-      ansible.builtin.ping:
+    - name: Ping all devices
+      ios_command:
+        commands:
+          - ping 10.0.2.15
