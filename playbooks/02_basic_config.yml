@@ -2,7 +2,7 @@
 - name: Basic configuration for router
   hosts: Router
   gather_facts: false
-  connection: local
+  connection: network_cli
   tasks:
     - name: Configure hostname
       become: yes
@@ -23,4 +23,14 @@
       become_method: enable
       ios_config:
         lines:
-          - crypto key generate rsa modules 1024
+          - crypto key generate rsa modulus 1024
+
+    - name: enable ssh on vty lines
+      become: yes
+      become_method: enable
+      ios_config:
+        parents:
+          - line vty 0 4
+        lines:
+          - transport input ssh
+          - login local
