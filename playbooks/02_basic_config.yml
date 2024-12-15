@@ -1,24 +1,26 @@
 ---
-- name: Basic configuration for routers
-  hosts: Router
+- name: Basic configuration for router
+  hosts: router
   gather_facts: false
   connection: local
-  
   tasks:
     - name: Configure hostname
-     
-
-- name: Basic configuration for switches
-  hosts: Switch
-  gather_facts: false
-  connection: local
-
-  task: 
-    - name: Configure 
-      iso_command:
-        commands:
+      become: yes
+      become_method: enable
+      ios_config:
+        lines:
           - hostname R1
-          - ip domain-name cisco.com
-          - line vty 0 24 
-          - transport input ssh
 
+    - name: Configure Domain Name
+      become: yes
+      become_method: enable
+      ios_config:
+        lines:
+          - ip domain-name ansible.com
+          
+    - name: Generate RSA Keys for SSH
+      become: yes
+      become_method: enable
+      ios_config:
+        lines:
+          - crypto key generate rsa modules 1024
